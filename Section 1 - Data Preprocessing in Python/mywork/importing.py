@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #importing dataset
-dataset = pd.read_csv('Data.csv')
+dataset = pd.read_csv("Data.csv")
 #dataset without purchase column
 x = dataset.iloc[:,:-1].values
 #dataset  purchase column
