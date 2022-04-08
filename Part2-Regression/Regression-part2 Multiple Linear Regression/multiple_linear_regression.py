@@ -60,8 +60,6 @@ regressor.fit(x_train,y_train)
 # vector of depndant varialble  predicted value 
 y_predict = regressor.predict(x_test)
 
-# Building the Optimal model using Backword Elimination
-import statsmodels.formula.api as sm
-x = np.append(arr =  np.ones((50,1)).astype(int), values = x, axis=1 )
 
- 
+
+
